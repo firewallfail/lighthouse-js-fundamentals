@@ -24,7 +24,7 @@ if (cold) {
 */
 
 //Shows "Make sure you pick out a scarf!" and "Now you're ready to go outside"
-const temperature = -1;
+/*const temperature = -1;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -35,3 +35,29 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+*/
+
+//shows "You are eligible to vote."
+/*
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+*/
+//shows "Maybe going outside isn't such a great idea…"
+/*
+let temperature = 58;
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+*/
+
+//shows "Leave your umbrella at home!"
+let raining = false;
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
